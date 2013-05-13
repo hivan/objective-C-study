@@ -32,6 +32,7 @@
 //    NSLog(@"charVar = %c", charVar);
     
     
+    
 //    第二个练习，熟悉优先级
 //    int a = 100;
 //    int b = 2;
@@ -52,14 +53,8 @@
 //    NSLog(@"a-c/b = %i", result);
 //    
 //    NSLog(@"a + b - c * d = %i",a + b - c * d);
-    int a  = 100, b = 2, c = 25, d = 4, result;
-    result = a - b;
-    NSLog(@"a-b = %i", result);
-    result = a+c;
-    NSLog(@"a+c = %i", result);
-    result = a*b/c;
-    NSLog(@"a*b/c = %i", result);
-    NSLog(@"a+b-c*d = %i", a+b-c*d);
+
+
     
 //    第三个练习
 //    int a = 25;
@@ -70,6 +65,7 @@
 //    NSLog(@"a/b*b = %i", a/b*b);
 //    NSLog(@"c/d*d = %f", c/d*d);
 //    NSLog(@"-a = %i", -a);
+
     
     
 //    第四个练习：求模
@@ -80,6 +76,7 @@
 //    NSLog(@"a %% c = %i", a % c);
 //    NSLog(@"a %% d = %i", a % d);
 //    NSLog(@"a /d * d + a %% d = %i", a / d * d + a % d);
+
 
     
 //    第五个练习：浮点数和整数
@@ -96,11 +93,14 @@
 //    NSLog(@"%i divided by 100.0 produces %f", i2, f2);
 //    f2 = (float) i2 / 100; // 类型强制转换运算符
 //    NSLog(@"(float) %i divided by 100 produces %f", i2, f2);
+
     
 //    char c, d;
 //    c = 'd';
 //    d = c;
 //    NSLog(@"d = %c", d);
+
+    
     
 //    float c, f;
 //    f = 27;
@@ -108,9 +108,11 @@
 //    NSLog(@"今天的温度是摄氏 %f 度", c);
 
     
+    
 //    int triangularNumber;
 //    triangularNumber = 1+2+3+4+5+6+7+8;
 //    NSLog(@"The triangularNumber is %i", triangularNumber);
+    
     
 //    int n, triangularNumber;
 //    triangularNumber = 0;
@@ -120,6 +122,7 @@
 //    }
 //    
 //    NSLog(@"The 200th triangular number is %i", triangularNumber);
+
     
 //    int n, triangularNumber;
 //    NSLog(@"TABLE OF TRIANGULAR NUMBERS");
@@ -130,6 +133,8 @@
 //        triangularNumber += n;
 //        NSLog(@" %i      %i", n, triangularNumber);
 //    }
+
+
     
     
 //    int n, number, triangularNumber, counter;
@@ -143,7 +148,6 @@
 //        }
 //        NSLog(@"Triangular number %i is %i", number, triangularNumber);
 //    }
-    
     
     
     
@@ -277,21 +281,22 @@
 //    }
     
     // 生成素数 第二个版本使用Bool类型和预定义的值
-//    int p, d;
-//    BOOL isPrime;
-//    
-//    
-//    for (p = 2; p <= 50; ++p) {
-//        isPrime = YES;
-//        for (d = 2; d < p; ++d) {
-//            if (p % d == 0) {
-//                isPrime = NO;
-//            }
-//        }
-//        if (isPrime == YES) {
-//            NSLog(@"%i", p);
-//        }
-//    }
+    int p, d;
+    BOOL isPrime;
+    
+    
+    for (p = 2; p <= 50; ++p) {
+        isPrime = YES;
+        for (d = 2; d < p; ++d) {
+            if (p % d == 0) {
+                isPrime = NO;
+                break;
+            }
+        }
+        if (isPrime == YES) {
+            NSLog(@"%i", p);
+        }
+    }
     
 }
 
