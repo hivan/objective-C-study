@@ -10,6 +10,10 @@
 
 @implementation UTPerson
 
+//@synthesize name = _name;
+//@synthesize age = _age;
+//@synthesize address = _address;
+
 - (id)initWithName:(NSString *)name age:(NSInteger)age adress:(NSString *)address
 {
     self = [super init];
@@ -21,6 +25,7 @@
     return self;
 }
 
+
 - (void)sayMyInfo
 {
     NSLog(@"我叫 %@, 今年 %i岁, 来自 %@", _name, _age, _address);
@@ -30,6 +35,47 @@
 {
     NSLog(@"%@", message);
 }
+
+//- (void)setName:(NSString *)name
+//{
+//    if (_name) {
+//        [_name release];
+//    }
+//    _name = [name copy];
+//}
+- (void)setName:(NSString *)name
+{
+    
+}
+
+//
+//-(void)setAge:(NSInteger)age
+//{
+//    _age = age;
+//}
+//
+//- (NSString *)name
+//{
+//    return _name;
+//}
+//
+//- (NSInteger)age
+//{
+//    return _age;
+//}
+//
+//- (NSString *)address
+//{
+//    return _address;
+//}
+//
+//- (void)setAddress:(NSString *)address
+//{
+//    if (_address) {
+//        [_address release];
+//    }
+//    _address = [address copy];
+//}
 
 - (void)dealloc
 {

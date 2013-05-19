@@ -26,8 +26,19 @@
     [zhangsan sayMyInfo];
     [zhangsan release];
     
+    
     UTPerson *lisi = [[UTPerson alloc] initWithName:@"李四" age:22 adress:@"广州"];
     [lisi sayMyInfo];
+    
+    [lisi setName:@"李二四"];
+    [lisi setAge:10];
+    [lisi setAddress:@"四川"];
+    [lisi sayMyInfo];
+    
+    lisi.name = @"李四啊啊啊啊啊啊";
+    
+    NSLog(@"%@的年龄是%i", [lisi name], [lisi age]);
+    
     [lisi release];
     
     [UTPerson printMessage:@"hi, iOS!"];

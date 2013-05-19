@@ -91,9 +91,9 @@
 				8219F9E9173F8ABA00176715 /* UTViewController.h */,
 				8219F9EA173F8ABA00176715 /* UTViewController.m */,
 				8219F9EC173F8ABA00176715 /* UTViewController.xib */,
-				8219F9D8173F8AB900176715 /* Supporting Files */,
 				8219F9F4173F8DD700176715 /* UTPerson.h */,
 				8219F9F5173F8DD700176715 /* UTPerson.m */,
+				8219F9D8173F8AB900176715 /* Supporting Files */,
 			);
 			path = UTDemo02;
 			sourceTree = "<group>";
@@ -303,6 +303,7 @@
 				8219F9F3173F8ABA00176715 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

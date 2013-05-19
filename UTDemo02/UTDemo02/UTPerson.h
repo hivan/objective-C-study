@@ -10,13 +10,26 @@
 
 @interface UTPerson : NSObject
 {
-    NSString    *_name;
-    NSInteger   _age;
-    NSString    *_address;
+//    NSString    *_name;
+//    NSInteger   _age;
+//    NSString    *_address;
 }
+
+@property (nonatomic, copy)NSString *name;
+@property (nonatomic, assign)NSInteger age;
+@property (nonatomic, copy)NSString *address;
+
 
 - (id)initWithName:(NSString *)name age:(NSInteger)age adress:(NSString *)address;
 - (void)sayMyInfo;
+
+- (void)setName:(NSString *)name;
+- (void)setAge:(NSInteger)age;
+- (void)setAddress:(NSString *)address;
+
+//- (NSString *)name;
+//- (NSString *)address;
+//- (NSInteger)age;
 
 + (void)printMessage:(NSString *)message;
 
