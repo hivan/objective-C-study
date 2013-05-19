@@ -8,6 +8,7 @@
 
 #import "UTViewController.h"
 #import "UTPerson.h"
+#import "UTDragonView.h"
 
 
 @interface UTViewController ()
@@ -19,6 +20,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    UTDragonView *dragonView
+    = [[UTDragonView alloc] initWithFrame:CGRectMake(0, 0, 320, 180)];
+    [self.view addSubview:dragonView];
+    [dragonView release];
     
 //    UTPerson *zhangsan = [UTPerson alloc]; //内存分配，用于存放UTPerson
 //    zhangsan = [zhangsan initWithName:@"张三" age:20 adress:@"上海"];

@@ -43,11 +43,6 @@
 //    }
 //    _name = [name copy];
 //}
-- (void)setName:(NSString *)name
-{
-    
-}
-
 //
 //-(void)setAge:(NSInteger)age
 //{

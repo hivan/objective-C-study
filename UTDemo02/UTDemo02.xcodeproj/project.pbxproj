@@ -13,12 +13,33 @@
 		8219F9DC173F8AB900176715 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8219F9DA173F8AB900176715 /* InfoPlist.strings */; };
 		8219F9DE173F8AB900176715 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8219F9DD173F8AB900176715 /* main.m */; };
 		8219F9E2173F8ABA00176715 /* UTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8219F9E1173F8ABA00176715 /* UTAppDelegate.m */; };
-		8219F9E4173F8ABA00176715 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8219F9E3173F8ABA00176715 /* Default.png */; };
-		8219F9E6173F8ABA00176715 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8219F9E5173F8ABA00176715 /* Default@2x.png */; };
-		8219F9E8173F8ABA00176715 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8219F9E7173F8ABA00176715 /* Default-568h@2x.png */; };
 		8219F9EB173F8ABA00176715 /* UTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8219F9EA173F8ABA00176715 /* UTViewController.m */; };
 		8219F9EE173F8ABA00176715 /* UTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8219F9EC173F8ABA00176715 /* UTViewController.xib */; };
 		8219F9F6173F8DD700176715 /* UTPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 8219F9F5173F8DD700176715 /* UTPerson.m */; };
+		82F45A9D1748FADD005F70F1 /* bg1.png in Resources */ = {isa = PBXBuildFile; fileRef = 82F45A861748FADD005F70F1 /* bg1.png */; };
+		82F45A9E1748FADD005F70F1 /* bg2.png in Resources */ = {isa = PBXBuildFile; fileRef = 82F45A871748FADD005F70F1 /* bg2.png */; };
+		82F45A9F1748FADD005F70F1 /* bg3.png in Resources */ = {isa = PBXBuildFile; fileRef = 82F45A881748FADD005F70F1 /* bg3.png */; };
+		82F45AA01748FADD005F70F1 /* bg4.png in Resources */ = {isa = PBXBuildFile; fileRef = 82F45A891748FADD005F70F1 /* bg4.png */; };
+		82F45AA11748FADD005F70F1 /* bg5.png in Resources */ = {isa = PBXBuildFile; fileRef = 82F45A8A1748FADD005F70F1 /* bg5.png */; };
+		82F45AA21748FADD005F70F1 /* blueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 82F45A8B1748FADD005F70F1 /* blueButton.png */; };
+		82F45AA31748FADD005F70F1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 82F45A8C1748FADD005F70F1 /* Default.png */; };
+		82F45AA41748FADD005F70F1 /* dragon.png in Resources */ = {isa = PBXBuildFile; fileRef = 82F45A8D1748FADD005F70F1 /* dragon.png */; };
+		82F45AA51748FADD005F70F1 /* five.png in Resources */ = {isa = PBXBuildFile; fileRef = 82F45A8E1748FADD005F70F1 /* five.png */; };
+		82F45AA61748FADD005F70F1 /* five@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82F45A8F1748FADD005F70F1 /* five@2x.png */; };
+		82F45AA71748FADD005F70F1 /* forward.png in Resources */ = {isa = PBXBuildFile; fileRef = 82F45A901748FADD005F70F1 /* forward.png */; };
+		82F45AA81748FADD005F70F1 /* four.png in Resources */ = {isa = PBXBuildFile; fileRef = 82F45A911748FADD005F70F1 /* four.png */; };
+		82F45AA91748FADD005F70F1 /* four@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82F45A921748FADD005F70F1 /* four@2x.png */; };
+		82F45AAA1748FADD005F70F1 /* hidden.png in Resources */ = {isa = PBXBuildFile; fileRef = 82F45A931748FADD005F70F1 /* hidden.png */; };
+		82F45AAB1748FADD005F70F1 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 82F45A941748FADD005F70F1 /* icon.png */; };
+		82F45AAC1748FADD005F70F1 /* one.png in Resources */ = {isa = PBXBuildFile; fileRef = 82F45A951748FADD005F70F1 /* one.png */; };
+		82F45AAD1748FADD005F70F1 /* one@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82F45A961748FADD005F70F1 /* one@2x.png */; };
+		82F45AAE1748FADD005F70F1 /* retreat.png in Resources */ = {isa = PBXBuildFile; fileRef = 82F45A971748FADD005F70F1 /* retreat.png */; };
+		82F45AAF1748FADD005F70F1 /* three.png in Resources */ = {isa = PBXBuildFile; fileRef = 82F45A981748FADD005F70F1 /* three.png */; };
+		82F45AB01748FADD005F70F1 /* three@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82F45A991748FADD005F70F1 /* three@2x.png */; };
+		82F45AB11748FADD005F70F1 /* two.png in Resources */ = {isa = PBXBuildFile; fileRef = 82F45A9A1748FADD005F70F1 /* two.png */; };
+		82F45AB21748FADD005F70F1 /* two@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82F45A9B1748FADD005F70F1 /* two@2x.png */; };
+		82F45AB31748FADD005F70F1 /* whiteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 82F45A9C1748FADD005F70F1 /* whiteButton.png */; };
+		82F45AB61748FBCB005F70F1 /* UTDragonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F45AB51748FBCB005F70F1 /* UTDragonView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,14 +53,36 @@
 		8219F9DF173F8AB900176715 /* UTDemo02-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UTDemo02-Prefix.pch"; sourceTree = "<group>"; };
 		8219F9E0173F8ABA00176715 /* UTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UTAppDelegate.h; sourceTree = "<group>"; };
 		8219F9E1173F8ABA00176715 /* UTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UTAppDelegate.m; sourceTree = "<group>"; };
-		8219F9E3173F8ABA00176715 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		8219F9E5173F8ABA00176715 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		8219F9E7173F8ABA00176715 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		8219F9E9173F8ABA00176715 /* UTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UTViewController.h; sourceTree = "<group>"; };
 		8219F9EA173F8ABA00176715 /* UTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UTViewController.m; sourceTree = "<group>"; };
 		8219F9ED173F8ABA00176715 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/UTViewController.xib; sourceTree = "<group>"; };
 		8219F9F4173F8DD700176715 /* UTPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTPerson.h; sourceTree = "<group>"; };
 		8219F9F5173F8DD700176715 /* UTPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTPerson.m; sourceTree = "<group>"; };
+		82F45A861748FADD005F70F1 /* bg1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg1.png; sourceTree = "<group>"; };
+		82F45A871748FADD005F70F1 /* bg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg2.png; sourceTree = "<group>"; };
+		82F45A881748FADD005F70F1 /* bg3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg3.png; sourceTree = "<group>"; };
+		82F45A891748FADD005F70F1 /* bg4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg4.png; sourceTree = "<group>"; };
+		82F45A8A1748FADD005F70F1 /* bg5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg5.png; sourceTree = "<group>"; };
+		82F45A8B1748FADD005F70F1 /* blueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButton.png; sourceTree = "<group>"; };
+		82F45A8C1748FADD005F70F1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		82F45A8D1748FADD005F70F1 /* dragon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dragon.png; sourceTree = "<group>"; };
+		82F45A8E1748FADD005F70F1 /* five.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = five.png; sourceTree = "<group>"; };
+		82F45A8F1748FADD005F70F1 /* five@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "five@2x.png"; sourceTree = "<group>"; };
+		82F45A901748FADD005F70F1 /* forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forward.png; sourceTree = "<group>"; };
+		82F45A911748FADD005F70F1 /* four.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = four.png; sourceTree = "<group>"; };
+		82F45A921748FADD005F70F1 /* four@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "four@2x.png"; sourceTree = "<group>"; };
+		82F45A931748FADD005F70F1 /* hidden.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hidden.png; sourceTree = "<group>"; };
+		82F45A941748FADD005F70F1 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		82F45A951748FADD005F70F1 /* one.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = one.png; sourceTree = "<group>"; };
+		82F45A961748FADD005F70F1 /* one@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "one@2x.png"; sourceTree = "<group>"; };
+		82F45A971748FADD005F70F1 /* retreat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = retreat.png; sourceTree = "<group>"; };
+		82F45A981748FADD005F70F1 /* three.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = three.png; sourceTree = "<group>"; };
+		82F45A991748FADD005F70F1 /* three@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "three@2x.png"; sourceTree = "<group>"; };
+		82F45A9A1748FADD005F70F1 /* two.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = two.png; sourceTree = "<group>"; };
+		82F45A9B1748FADD005F70F1 /* two@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "two@2x.png"; sourceTree = "<group>"; };
+		82F45A9C1748FADD005F70F1 /* whiteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteButton.png; sourceTree = "<group>"; };
+		82F45AB41748FBCB005F70F1 /* UTDragonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTDragonView.h; sourceTree = "<group>"; };
+		82F45AB51748FBCB005F70F1 /* UTDragonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTDragonView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +129,7 @@
 		8219F9D7173F8AB900176715 /* UTDemo02 */ = {
 			isa = PBXGroup;
 			children = (
+				82F45A851748FADD005F70F1 /* images */,
 				8219F9E0173F8ABA00176715 /* UTAppDelegate.h */,
 				8219F9E1173F8ABA00176715 /* UTAppDelegate.m */,
 				8219F9E9173F8ABA00176715 /* UTViewController.h */,
@@ -93,6 +137,8 @@
 				8219F9EC173F8ABA00176715 /* UTViewController.xib */,
 				8219F9F4173F8DD700176715 /* UTPerson.h */,
 				8219F9F5173F8DD700176715 /* UTPerson.m */,
+				82F45AB41748FBCB005F70F1 /* UTDragonView.h */,
+				82F45AB51748FBCB005F70F1 /* UTDragonView.m */,
 				8219F9D8173F8AB900176715 /* Supporting Files */,
 			);
 			path = UTDemo02;
@@ -105,11 +151,38 @@
 				8219F9DA173F8AB900176715 /* InfoPlist.strings */,
 				8219F9DD173F8AB900176715 /* main.m */,
 				8219F9DF173F8AB900176715 /* UTDemo02-Prefix.pch */,
-				8219F9E3173F8ABA00176715 /* Default.png */,
-				8219F9E5173F8ABA00176715 /* Default@2x.png */,
-				8219F9E7173F8ABA00176715 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82F45A851748FADD005F70F1 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				82F45A861748FADD005F70F1 /* bg1.png */,
+				82F45A871748FADD005F70F1 /* bg2.png */,
+				82F45A881748FADD005F70F1 /* bg3.png */,
+				82F45A891748FADD005F70F1 /* bg4.png */,
+				82F45A8A1748FADD005F70F1 /* bg5.png */,
+				82F45A8B1748FADD005F70F1 /* blueButton.png */,
+				82F45A8C1748FADD005F70F1 /* Default.png */,
+				82F45A8D1748FADD005F70F1 /* dragon.png */,
+				82F45A8E1748FADD005F70F1 /* five.png */,
+				82F45A8F1748FADD005F70F1 /* five@2x.png */,
+				82F45A901748FADD005F70F1 /* forward.png */,
+				82F45A911748FADD005F70F1 /* four.png */,
+				82F45A921748FADD005F70F1 /* four@2x.png */,
+				82F45A931748FADD005F70F1 /* hidden.png */,
+				82F45A941748FADD005F70F1 /* icon.png */,
+				82F45A951748FADD005F70F1 /* one.png */,
+				82F45A961748FADD005F70F1 /* one@2x.png */,
+				82F45A971748FADD005F70F1 /* retreat.png */,
+				82F45A981748FADD005F70F1 /* three.png */,
+				82F45A991748FADD005F70F1 /* three@2x.png */,
+				82F45A9A1748FADD005F70F1 /* two.png */,
+				82F45A9B1748FADD005F70F1 /* two@2x.png */,
+				82F45A9C1748FADD005F70F1 /* whiteButton.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,10 +238,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				8219F9DC173F8AB900176715 /* InfoPlist.strings in Resources */,
-				8219F9E4173F8ABA00176715 /* Default.png in Resources */,
-				8219F9E6173F8ABA00176715 /* Default@2x.png in Resources */,
-				8219F9E8173F8ABA00176715 /* Default-568h@2x.png in Resources */,
 				8219F9EE173F8ABA00176715 /* UTViewController.xib in Resources */,
+				82F45A9D1748FADD005F70F1 /* bg1.png in Resources */,
+				82F45A9E1748FADD005F70F1 /* bg2.png in Resources */,
+				82F45A9F1748FADD005F70F1 /* bg3.png in Resources */,
+				82F45AA01748FADD005F70F1 /* bg4.png in Resources */,
+				82F45AA11748FADD005F70F1 /* bg5.png in Resources */,
+				82F45AA21748FADD005F70F1 /* blueButton.png in Resources */,
+				82F45AA31748FADD005F70F1 /* Default.png in Resources */,
+				82F45AA41748FADD005F70F1 /* dragon.png in Resources */,
+				82F45AA51748FADD005F70F1 /* five.png in Resources */,
+				82F45AA61748FADD005F70F1 /* five@2x.png in Resources */,
+				82F45AA71748FADD005F70F1 /* forward.png in Resources */,
+				82F45AA81748FADD005F70F1 /* four.png in Resources */,
+				82F45AA91748FADD005F70F1 /* four@2x.png in Resources */,
+				82F45AAA1748FADD005F70F1 /* hidden.png in Resources */,
+				82F45AAB1748FADD005F70F1 /* icon.png in Resources */,
+				82F45AAC1748FADD005F70F1 /* one.png in Resources */,
+				82F45AAD1748FADD005F70F1 /* one@2x.png in Resources */,
+				82F45AAE1748FADD005F70F1 /* retreat.png in Resources */,
+				82F45AAF1748FADD005F70F1 /* three.png in Resources */,
+				82F45AB01748FADD005F70F1 /* three@2x.png in Resources */,
+				82F45AB11748FADD005F70F1 /* two.png in Resources */,
+				82F45AB21748FADD005F70F1 /* two@2x.png in Resources */,
+				82F45AB31748FADD005F70F1 /* whiteButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,6 +276,7 @@
 				8219F9E2173F8ABA00176715 /* UTAppDelegate.m in Sources */,
 				8219F9EB173F8ABA00176715 /* UTViewController.m in Sources */,
 				8219F9F6173F8DD700176715 /* UTPerson.m in Sources */,
+				82F45AB61748FBCB005F70F1 /* UTDragonView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
