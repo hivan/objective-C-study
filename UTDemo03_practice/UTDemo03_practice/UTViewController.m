@@ -1,13 +1,12 @@
 //
 //  UTViewController.m
-//  UTDemo03_Practice
+//  UTDemo03_practice
 //
-//  Created by Hivan Du on 13-5-20.
+//  Created by Hivan Du on 13-5-26.
 //  Copyright (c) 2013年 Hivan Du. All rights reserved.
 //
 
 #import "UTViewController.h"
-#import "UTDrangonView.h"
 
 @interface UTViewController ()
 
@@ -18,10 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    UTDrangonView *dragonView = [[UTDrangonView alloc] initWithFrame:CGRectMake(0, 0, 320, 180)];
-    [self.view addSubview:dragonView];
-    [dragonView release];
-    
+	// Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning
