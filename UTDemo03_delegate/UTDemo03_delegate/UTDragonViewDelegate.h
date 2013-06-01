@@ -2,7 +2,7 @@
 //  UTDragonViewDelegate.h
 //  UTDemo03_delegate
 //
-//  Created by Hivan Du on 13-5-30.
+//  Created by Hivan Du on 13-6-1.
 //  Copyright (c) 2013年 Hivan Du. All rights reserved.
 //
 
@@ -12,10 +12,7 @@
 
 @protocol UTDragonViewDelegate <NSObject>
 
-@optional
-- (void)retreatButtonClicked:(UTDragonView *)dragonView;
-
-@required
-- (void)forwardButtonClicked:(UTDragonView *)dragonView;
+-(void)retreatButtonClicked:(UTDragonView *)delegate;
+-(void)forwardButtonClicked:(UTDragonView *)delegate;
 
 @end

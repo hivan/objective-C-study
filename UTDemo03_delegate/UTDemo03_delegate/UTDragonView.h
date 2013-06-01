@@ -2,7 +2,7 @@
 //  UTDragonView.h
 //  UTDemo03_delegate
 //
-//  Created by Hivan Du on 13-5-30.
+//  Created by Hivan Du on 13-6-1.
 //  Copyright (c) 2013年 Hivan Du. All rights reserved.
 //
 
@@ -15,6 +15,6 @@
     id<UTDragonViewDelegate>    _delegate;
 }
 
-@property (nonatomic, assign) id<UTDragonViewDelegate> delegate;
+@property (nonatomic,assign) id<UTDragonViewDelegate> delegate;
 
 @end

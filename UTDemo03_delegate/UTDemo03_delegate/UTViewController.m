@@ -2,28 +2,17 @@
 //  UTViewController.m
 //  UTDemo03_delegate
 //
-//  Created by Hivan Du on 13-5-30.
+//  Created by Hivan Du on 13-6-1.
 //  Copyright (c) 2013年 Hivan Du. All rights reserved.
 //
 
 #import "UTViewController.h"
-#import "UTDragonView.h"
 
 @interface UTViewController ()
 
 @end
 
 @implementation UTViewController
-
-- (void)retreatButtonClicked:(UTDragonView *)dragonView
-{
-    _infolaber.text = @"后退";
-}
-
-- (void)forwardButtonClicked:(UTDragonView *)dragonView
-{
-    _infolaber.text = @"前进";
-}
 
 - (void)viewDidLoad
 {
@@ -33,13 +22,23 @@
     [self.view addSubview:_dragonView];
     [_dragonView release];
     
-    _infolaber = [[UILabel alloc] initWithFrame:CGRectMake(0, 400, 320, 60)];
-    _infolaber.backgroundColor = [UIColor cyanColor];
-    _infolaber.textAlignment = UITextAlignmentCenter;
-    _infolaber.numberOfLines = 0;
-    _infolaber.text = @"Missing Ytou!";
-    [self.view addSubview:_infolaber];
-    [_infolaber release];
+    _infolabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 400, 320, 60)];
+    _infolabel.backgroundColor = [UIColor cyanColor];
+    _infolabel.textAlignment = UITextAlignmentCenter;
+    _infolabel.numberOfLines = 0;
+    _infolabel.text = @"dragon's info";
+    [self.view addSubview:_infolabel];
+    [_infolabel release];
+}
+
+- (void)retreatButtonClicked:(UTDragonView *)delegate
+{
+    _infolabel.text = @"后退";
+}
+
+- (void)forwardButtonClicked:(UTDragonView *)delegate
+{
+    _infolabel.text = @"前进";
 }
 
 - (void)didReceiveMemoryWarning

@@ -2,7 +2,7 @@
 //  UTDragonView.m
 //  UTDemo03_delegate
 //
-//  Created by Hivan Du on 13-5-30.
+//  Created by Hivan Du on 13-6-1.
 //  Copyright (c) 2013年 Hivan Du. All rights reserved.
 //
 
@@ -34,7 +34,7 @@
         [forwardButton addTarget:self action:@selector(forwardButtonClicked:) forControlEvents:UIControlEventTouchUpInside];
         [self addSubview:forwardButton];
         
-        self.backgroundColor = [UIColor greenColor];
+        self.backgroundColor = [UIColor orangeColor];
     }
     return self;
 }
@@ -42,10 +42,10 @@
 - (void)retreatButtonClicked:(id)sender
 {
     CGFloat x = _imageView.frame.origin.x;
-    if (x > 0) {
+    if ( x > 0 ) {
         _imageView.frame = CGRectMake(x-10, 10, 80, 80);
     }
-    if (_delegate && [(NSObject *)_delegate respondsToSelector:@selector(retreatButtonClicked:)]) {
+    if (_delegate && [(NSObject *) _delegate respondsToSelector:@selector(retreatButtonClicked:)]) {
         [_delegate retreatButtonClicked:self];
     }
 }
@@ -56,11 +56,10 @@
     if (x < 240) {
         _imageView.frame = CGRectMake(x+10, 10, 80, 80);
     }
-    if (_delegate && [(NSObject *)_delegate respondsToSelector:@selector(forwardButtonClicked:)]) {
+    if (_delegate && [(NSObject *) _delegate respondsToSelector:@selector(forwardButtonClicked:)]) {
         [_delegate forwardButtonClicked:self];
     }
 }
-
 - (void)dealloc
 {
     [super dealloc];
