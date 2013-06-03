@@ -17,29 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    _dragonView = [[UTDragonView alloc] initWithFrame:CGRectMake(0, 0, 320, 180)];
-    _dragonView.delegate = self;
-    [self.view addSubview:_dragonView];
-    [_dragonView release];
-    
-    _infolabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 400, 320, 60)];
-    _infolabel.backgroundColor = [UIColor cyanColor];
-    _infolabel.textAlignment = UITextAlignmentCenter;
-    _infolabel.numberOfLines = 0;
-    _infolabel.text = @"Dragon's info";
-    [self.view addSubview:_infolabel];
-    [_infolabel release];
-    
-}
-
-- (void)retreatButtonClicked:(UTDragonView *)dragonView
-{
-    _infolabel.text = @"后退";
-}
-
-- (void)forwardButtonClicked:(UTDragonView *)dragonView
-{
-    _infolabel.text = @"前进";
+	// Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning

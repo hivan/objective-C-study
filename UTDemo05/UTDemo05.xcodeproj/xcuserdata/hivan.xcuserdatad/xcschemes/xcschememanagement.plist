@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>UTDemo03_delegate2.xcscheme</key>
+		<key>UTDemo05.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>82FCBAFC175B01A3003CA07B</key>
+		<key>8237BA89175B344C00616FC7</key>
 		<dict>
 			<key>primary</key>
 			<true/>

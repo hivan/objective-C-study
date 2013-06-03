@@ -1,5 +1,5 @@
 //
-//  UTAppDelegate.h
+//  UTOneViewController.h
 //  UTDemo04
 //
 //  Created by Hivan Du on 13-6-2.
@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import "UTDragonView.h"
+#import "UTBaseViewController.h"
 
-@interface UTAppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface UTOneViewController : UTBaseViewController
+{
+    UIImageView *_oneImageView;
+}
 @end
