@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82AF58CF1776CE5900570D80 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82AF58CE1776CE5900570D80 /* MapKit.framework */; };
+		82AF58D11776CE7300570D80 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82AF58D01776CE7300570D80 /* CoreLocation.framework */; };
 		82E48CB7176D4F6A00CA83AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82E48CB6176D4F6A00CA83AD /* UIKit.framework */; };
 		82E48CB9176D4F6A00CA83AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82E48CB8176D4F6A00CA83AD /* Foundation.framework */; };
 		82E48CBB176D4F6A00CA83AD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82E48CBA176D4F6A00CA83AD /* CoreGraphics.framework */; };
@@ -49,9 +51,12 @@
 		82E48D4A176D50E300CA83AD /* UTThreeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82E48D44176D50E300CA83AD /* UTThreeViewController.xib */; };
 		82E48D4B176D50E300CA83AD /* UTTwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82E48D46176D50E300CA83AD /* UTTwoViewController.xib */; };
 		82E48D4E176D64DA00CA83AD /* UTSubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E48D4D176D64DA00CA83AD /* UTSubViewController.m */; };
+		82ED652D177FE0B000A4D2C8 /* UTAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED652C177FE0B000A4D2C8 /* UTAnnotation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		82AF58CE1776CE5900570D80 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		82AF58D01776CE7300570D80 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		82E48CB3176D4F6A00CA83AD /* UTDemo06.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UTDemo06.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82E48CB6176D4F6A00CA83AD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		82E48CB8176D4F6A00CA83AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -105,6 +110,8 @@
 		82E48D46176D50E300CA83AD /* UTTwoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UTTwoViewController.xib; sourceTree = "<group>"; };
 		82E48D4C176D64DA00CA83AD /* UTSubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTSubViewController.h; sourceTree = "<group>"; };
 		82E48D4D176D64DA00CA83AD /* UTSubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTSubViewController.m; sourceTree = "<group>"; };
+		82ED652B177FE0B000A4D2C8 /* UTAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTAnnotation.h; sourceTree = "<group>"; };
+		82ED652C177FE0B000A4D2C8 /* UTAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTAnnotation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +119,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82AF58D11776CE7300570D80 /* CoreLocation.framework in Frameworks */,
+				82AF58CF1776CE5900570D80 /* MapKit.framework in Frameworks */,
 				82E48CB7176D4F6A00CA83AD /* UIKit.framework in Frameworks */,
 				82E48CB9176D4F6A00CA83AD /* Foundation.framework in Frameworks */,
 				82E48CBB176D4F6A00CA83AD /* CoreGraphics.framework in Frameworks */,
@@ -141,6 +150,8 @@
 		82E48CB5176D4F6A00CA83AD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				82AF58D01776CE7300570D80 /* CoreLocation.framework */,
+				82AF58CE1776CE5900570D80 /* MapKit.framework */,
 				82E48CB6176D4F6A00CA83AD /* UIKit.framework */,
 				82E48CB8176D4F6A00CA83AD /* Foundation.framework */,
 				82E48CBA176D4F6A00CA83AD /* CoreGraphics.framework */,
@@ -269,6 +280,8 @@
 		82E48CE0176D501C00CA83AD /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				82ED652B177FE0B000A4D2C8 /* UTAnnotation.h */,
+				82ED652C177FE0B000A4D2C8 /* UTAnnotation.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -505,6 +518,7 @@
 				82E48D36176D50A100CA83AD /* UTThreeViewController.m in Sources */,
 				82E48D3B176D50A700CA83AD /* UTTwoViewController.m in Sources */,
 				82E48D4E176D64DA00CA83AD /* UTSubViewController.m in Sources */,
+				82ED652D177FE0B000A4D2C8 /* UTAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -608,6 +622,7 @@
 				82E48CD2176D4F6A00CA83AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

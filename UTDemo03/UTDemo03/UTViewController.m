@@ -10,10 +10,6 @@
 #import "UTDragonView.h"
 #import "UTDragonView+hideOrShow.h"
 
-@interface UTViewController ()
-
-@end
-
 @implementation UTViewController
 
 //- (void)retreatButtonClicked:(UTDragonView *)dragonView

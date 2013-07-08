@@ -9,9 +9,20 @@
 #import <UIKit/UIKit.h>
 #import "UTBaseViewController.h"
 
-@interface UTThreeViewController : UIViewController
+@interface UTThreeViewController : UIViewController <UIScrollViewDelegate>
 {
-    UIImageView *_ThreeImageView;
-    UILabel *_infolabel;
+    UIScrollView *_scrollView;
+    UIPageControl *_pageControl;
+    UIView  *_contentView;
+    NSMutableArray *imageArray;
+    NSTimer *myTimer;
 }
+
+@property(nonatomic,retain) IBOutlet UIScrollView *myScrollView;  
+
+@property(nonatomic,retain) IBOutlet
+UIPageControl *pageControl;
+
+-(IBAction)pageTurn:(UIPageControl *)sender; 
+
 @end

@@ -10,9 +10,9 @@
 
 #import "UTBaseViewController.h"
 
-@interface UTFourViewController : UIViewController
+@interface UTFourViewController : UIViewController <UIWebViewDelegate>
 {
-    UIImageView *_fourImageView;
-    UILabel *_infolabel;
+    UIWebView *_webView;
+    UIActivityIndicatorView *_activityIndicatorView;
 }
 @end

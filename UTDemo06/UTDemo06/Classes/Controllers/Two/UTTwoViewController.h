@@ -9,9 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "UTBaseViewController.h"
 
-@interface UTTwoViewController : UIViewController
+@interface UTTwoViewController : UIViewController <UITextFieldDelegate,UITextViewDelegate>
 {
-    UIImageView *_twoImageView;
-    UILabel *_infolabel;
+    
 }
 @end
